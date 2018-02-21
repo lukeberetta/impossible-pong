@@ -1,4 +1,4 @@
-# Pong
+# Impossible Pong
 
 A pong game by Luke Beretta. 
 
