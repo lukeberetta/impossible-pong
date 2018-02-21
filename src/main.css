@@ -1,0 +1,49 @@
+
+/* General Styling */
+
+body {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    background-color: #223ba1;
+    height: 100vh;
+    width: 100vw;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    image-rendering: pixelated;
+    -webkit-font-smoothing: antialiased;
+    -webkit-backface-visibility: hidden;
+    font-family: 'Inconsolata', monospace;
+}
+
+p {
+    letter-spacing: 1px;
+    color: white;
+    font-size: 12px;
+}
+
+a {
+    font-weight: bolder;
+    text-decoration: none;
+    color: white;
+    transition: all .3s;
+}
+
+a:hover {
+    color: aqua;
+}
+
+#pong {
+    width: 55vw;
+    height: 55vh;
+    margin: 40px 0;
+    cursor: none;
+    box-shadow: 0 1px 3px rgba(0,0,0,0.12), 0 1px 2px rgba(0,0,0,0.24);
+    transition: all 0.3s cubic-bezier(.25,.8,.25,1);
+}
+
+#pong:hover {
+    box-shadow: 0 14px 28px rgba(0,0,0,0.25), 0 10px 10px rgba(0,0,0,0.22);
+}
