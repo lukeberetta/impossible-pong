@@ -128,7 +128,7 @@ class Pong
     }
     draw()
     {
-        this._context.fillStyle = '#1e3799';
+        this._context.fillStyle = '#2A44AF';
         this._context.fillRect(0, 0, this._canvas.width, this._canvas.height);
 
         this.drawRect(this.ball);
