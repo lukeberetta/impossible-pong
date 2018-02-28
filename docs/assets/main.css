@@ -62,3 +62,26 @@ a:hover {
     font-size: 10px;
     transform: translateY(50px);
 }
+
+#bat {
+    z-index: -1;
+    background: url('img/bat.svg') no-repeat center;
+    background-size: contain;
+    height: 300px;
+    width: 300px; 
+    transform: translateY(-55px);
+    opacity: .9;
+}
+
+#hero {
+    transform: translateY(100px) scale(0);
+    animation: fadeIn 1s ease-out .1s forwards;
+    opacity: 0;
+}
+
+@keyframes fadeIn {
+    100% {
+        opacity: 1;
+        transform: translateY(100px) scale(1);
+    }
+}
