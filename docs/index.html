@@ -3,19 +3,26 @@
 <head>
     <title>Pong</title>
     <link rel="stylesheet" href="assets/main.css">
-    <link href="https://fonts.googleapis.com/css?family=Inconsolata:400,700" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css?family=Inconsolata:400" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css?family=Nixie+One" rel="stylesheet">
+
 </head>
-<body>
-    <div class="header">
-        <p><strong>Click</strong> to start loosing.</p>
-    </div>
 
-    <canvas id="pong" width="900" height="600">
-    </canvas>
-
-    <footer>
-        <p>Impossible Pong. By <a target="_blank" href="https://lukeberetta.github.io/">Luke Beretta</a></p>
-    </footer>
+    <!-- Text -->
+    <section>
+        <div id="text">
+            <h1>Impossible Pong</h1>
+            <p>By
+                <a target="_blank" href="https://lukeberetta.github.io/">Luke Beretta</a>. Scroll down to start loosing.</p>
+        </div>
+    </section>
+    <!-- Game -->
+    <section>
+        <canvas id="pong" width="900" height="600">
+        </canvas>
+        <p id="copyright">Copyright © Luke Beretta 2018 All rights reserved.</p>
+    </section>
+    
 
     <script src="assets/pong.js"></script>
 </body>
