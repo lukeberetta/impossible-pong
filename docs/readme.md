@@ -1,5 +1,5 @@
 # Impossible Pong
 
-A pong game by Luke Beretta. 
+### A take on the classic game of Pong.
 
-See it in [action!](https://lukeberetta.github.io/impossible-pong)
+Built using **HTML5 canvas** and **Vanilla JavaScript** See it in [action!](https://lukeberetta.github.io/impossible-pong)
